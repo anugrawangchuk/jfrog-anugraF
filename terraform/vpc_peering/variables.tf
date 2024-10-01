@@ -13,7 +13,7 @@ variable "private_route_table_id" {
 
 variable "existing_route_table_id" {
   description = "The ID of the existing route table in the peer VPC"
-  default     = "rtb-03cd977d679675f4f"  # Your specified route table ID
+  default     = "rtb-0f862e8b6a8439d43"  # Your specified route table ID
 }
 
 variable "vpc_cidr_block" {
