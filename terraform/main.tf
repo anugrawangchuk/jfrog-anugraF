@@ -25,7 +25,7 @@ module "vpc_peering" {
   peer_vpc_id           = var.peer_vpc_id
   public_route_table_id = module.vpc.public_route_table_id
   private_route_table_id = module.vpc.private_route_table_id
-  existing_route_table_id = "rtb-03cd977d679675f4f"
+  existing_route_table_id = "rtb-0f862e8b6a8439d43"
   peer_vpc_cidr_block = "172.31.0.0/16"
 }
 
