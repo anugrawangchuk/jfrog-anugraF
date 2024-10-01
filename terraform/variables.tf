@@ -3,7 +3,7 @@ variable "region" {
 }
 
 variable "key_name" {
-  default = "Terraform_1.pem"
+  default = "Terraform_1"
 }
 
 variable "peer_vpc_id" {
