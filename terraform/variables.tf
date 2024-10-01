@@ -8,5 +8,5 @@ variable "key_name" {
 
 variable "peer_vpc_id" {
   description = "The ID of the existing VPC to peer with"
-  default     = "vpc-0732d3359818e4597"
+  default     = "vpc-02a507c401bdd43d8"
 }
